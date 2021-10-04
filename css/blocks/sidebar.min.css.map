@@ -1,0 +1,1 @@
+{"version":3,"sources":["blocks/sidebar.scss"],"names":[],"mappings":"AAAA,SACI,cAAA,CACA,KAAA,CACA,MAAA,CACA,WAAA","file":"sidebar.min.css","sourcesContent":[".sidebar{\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    z-index: 100;\r\n    \r\n}"]}

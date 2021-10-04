@@ -1,0 +1,1 @@
+{"version":3,"sources":["blocks/container.scss"],"names":[],"mappings":"AAAA,WACI,eAAA,CACA,aAAA,CACA,iBAAA,CACA,kBAAA","file":"container.min.css","sourcesContent":[".container{\r\n    max-width: 70rem;\r\n    margin: 0 auto;\r\n    padding-left: 5rem;\r\n    padding-right: 5rem;\r\n}"]}

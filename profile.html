@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>профиль</title>
+</head>
+<body>
+    
+    <div class="page">
+
+        <header class="header">
+            <div class="header__left">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link has-subnav" href="#">Сатьи</a>
+                            <ul class="subnav">
+                                <li>
+                                    <a class="subnav__link" href="#">Создание сайтов</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Интернет-маркетинг</a>
+                                </li>
+                                <li">
+                                    <a class="subnav__link" href="#">Продвижение видео</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="text.html">Обо мне</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="text.html">Реклама</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <button class="burger active" type="button">
+                    <span>Открыть навигацию</span>
+                </button>
+            </div> <!--header__left-->
+
+            <div class="header__right">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="profile.html">Профиль</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Выйти</a>
+                        </li>
+                    </ul>
+                </nav>
+                <form class="search" action="/" method="POST">
+                    <input class="search__input" type="text" placeholder="Поиск по блогу">
+                </form>
+            </div>
+        </header>
+
+
+
+        <aside class="sidebar">
+            <div class="sidebar__header">
+                <img src="images/sidebar/sidebar-img.jpg" alt="">
+            </div>
+            <div class="sidebar__content">
+                <div class="profile">
+                    <img src="images/sidebar/avatar.jpg" alt="Дмитрий Валак" class="profile__avatar">
+                    <div class="profile__header">
+                        <div class="profile__name">Дмитрий Валак</div>
+                        <div class="profile__prof">блог front-end разработчика</div>
+                    </div>
+
+                    <nav class="nav nav--mobile">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a class="nav__link" href="index.html">Главная</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link has-subnav" href="#">Статьи</a>
+                                <ul class="subnav">
+                                    <li>
+                                        <a class="subnav__link" href="#">Создание сайтов</a>
+                                    </li>
+                                    <li>
+                                        <a class="subnav__link" href="#">Интернет-маркетинг</a>
+                                    </li>
+                                    <li">
+                                        <a class="subnav__link" href="#">Продвижение видео</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">Обо мне</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">Реклама</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="profile.html">Профиль</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#">Выйти</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <ul class="social">
+                        <li class="social__item">
+                            <a href="#" class="social__link" target="_blank">
+                                <img src="images/sidebar/social/instagram.svg" alt="Дмитрий Валак instaram">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link" target="_blank">
+                                <img src="images/sidebar/social/vk.svg" alt="Дмитрий Валак vk">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link" target="_blank">
+                                <img src="images/sidebar/social/pinterest.svg" alt="Дмитрий Валак pinterest">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="profile__text">
+                        <p>Front-end разработчик. Практик верстки сайтов.
+                        Созданием сайтов занимаюсь с 2012 года. Работал в нескольких ИТ компаниях и наработал более 10000 часов в создании сайтов различной сложности.</p>
+                    </div>
+
+                </div> <!--profile-->
+            </div> <!--sidebar__content-->
+            <div class="sidebar__footer">
+                <a class="btn btn--red" href="works.html">Мои работы</a>
+                <button class="btn btn--blue" type="button" data-modal="contact-modal">Написать мне</button>
+            </div>
+        </aside>
+
+
+
+        <main class="main">
+            <div class="container">
+                
+                <h1 class="page__title">Профиль</h1>
+
+                <form action="/" class="form" method="post">
+                    <div class="cabinet">
+                        <div class="cabinet__form">
+                            <div class="form__group form__group--mb">
+                                <input type="text" class="form__control" placeholder="Ваше имя" value="Дмитрий Валак">
+                                <span class="form__line"></span>
+                            </div>
+        
+                            <div class="form__group form__group--mb">
+                                <input type="email" class="form__control" placeholder="Ваш e-mail" value="alex.provo@mail.com">
+                                <span class="form__line"></span>
+                            </div>
+        
+                            <div class="form__group form__group--mb">
+                                <input type="password" class="form__control" placeholder="Новый пароль" >
+                                <span class="form__line"></span>
+                            </div>
+        
+                            <div class="form__group form__group--mb">
+                                <input type="password" class="form__control" placeholder="Подтвердите пароль" >
+                                <span class="form__line"></span>
+                            </div>
+                        </div> <!--profile__form-->
+                        <div class="cabinet__avatar">
+                            <img src="images/cabinet-avatar.jpg" alt="">
+                            <label for="cabinet-avatar" class="cabinet__file">
+                                <input type="file" id="cabinet-avatar">
+                                выбрать аватар
+                            </label>
+                        </div>
+                    </div>
+                    <button class="btn btn--blue btn--rounded btn--sm" type="button">Сохранить</button>
+                </form>
+
+            </div> <!--container-->
+        </main>
+
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/7afbb1eac2.js" crossorigin="anonymous"></script>
+</body>
+</html>

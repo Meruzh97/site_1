@@ -1,0 +1,53 @@
+@import "vendor/reset.scss";
+@import "_vars.scss";
+@import "mixins.scss";
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #181818;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    color: $white;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    &.no-scroll{
+        overflow: hidden;
+    }
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+// blocks
+@import "blocks/page.scss";
+@import "blocks/container.scss";
+@import "blocks/header.scss";
+@import "blocks/burger.scss";
+@import "blocks/nav.scss";
+@import "blocks/subnav.scss";
+@import "blocks/search.scss";
+@import "blocks/sidebar.scss";
+@import "blocks/main.scss";
+@import "blocks/container.scss";
+@import "blocks/profile.scss";
+@import "blocks/social.scss";
+@import "blocks/btn.scss";
+@import "blocks/stories.scss";
+@import "blocks/add-post.scss";
+@import "blocks/post.scss";
+@import "blocks/embed.scss";
+@import "blocks/pagination.scss";
+@import "blocks/related.scss";
+@import "blocks/comments.scss";
+@import "blocks/form.scss";
+@import "blocks/work.scss";
+@import "blocks/tags.scss";
+@import "blocks/cabinet.scss";
+@import "blocks/modal.scss";

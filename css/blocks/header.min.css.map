@@ -1,0 +1,1 @@
+{"version":3,"sources":["blocks/header.scss"],"names":[],"mappings":"AAAA,QACI,cAAA,CACA,KAAA,CACA,OAAA","file":"header.min.css","sourcesContent":[".header{\r\n    position: fixed;\r\n    top: 0;\r\n    right: 0;\r\n}"]}
