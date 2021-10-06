@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.min.css">
     <title>Главная</title>
 </head>
-<body class="show-sidebar">
+<body>
 
     <div class="page">
 
@@ -41,7 +41,7 @@
                     </ul>
                 </nav>
 
-                <button class="burger active" type="button">
+                <button class="burger active" type="button" id="burger">
                     <span>Открыть навигацию</span>
                 </button>
 
@@ -152,17 +152,17 @@
                         <div class="stories__title">Отдыхаю на природе</div>
                         <time class="stories__date" datetime="2020-09-21 19:21">21.09.2020</time>
                     </div>
-                    <div class="stories__item">
+                    <div class="stories__item" data-modal="story-modal">
                         <img class="stories__preview" src="images/stories/2.jpg" alt="">
                         <div class="stories__title">Заканчиваю сложный проект</div>
                         <time class="stories__date" datetime="2020-09-15 9:21">15.09.2020</time>
                     </div>
-                    <div class="stories__item">
+                    <div class="stories__item" data-modal="story-modal">
                         <img class="stories__preview" src="images/stories/3.jpg" alt="">
                         <div class="stories__title">Переехал в новую квартиру</div>
                         <time class="stories__date" datetime="2020-09-11 17:21">11.09.2020</time>
                     </div>
-                    <div class="stories__item">
+                    <div class="stories__item" data-modal="story-modal">
                         <img class="stories__preview" src="images/stories/4.jpg" alt="">
                         <div class="stories__title">Осень пришла!</div>
                         <time class="stories__date" datetime="2020-08-28 14:21">28.08.2020</time>
@@ -435,5 +435,6 @@
     
     <script src="https://kit.fontawesome.com/7afbb1eac2.js" crossorigin="anonymous"></script>
     <script src="modal.js"></script>
+    <script src="modalNav.js"></script>
 </body>
 </html>
